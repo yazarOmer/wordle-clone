@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+:root,
+html {
+    @apply h-screen w-full bg-[#121213] flex flex-col items-center;
+}
